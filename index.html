@@ -1,102 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Ximi Guides</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/misans@4.1.0/lib/Normal/MiSans-Medium.min.css" /> <link rel="stylesheet" crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/misans@4.1.0/lib/Normal/MiSans-Bold.min.css" />
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ximi Guides - Master Your Xiaomi Experience</title>
+  <meta name="description" content="Expert tutorials, guides and tips for Xiaomi, Redmi and POCO devices. Unlock your device's full potential with our step-by-step guides.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MiSans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container header-container">
-            <h1>Ximi Guides</h1>
-            <nav class="main-nav" aria-label="Main Navigation">
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="guides.html">Guides</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="reviews.html">Reviews</a></li>
-                </ul>
-            </nav>
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo-container">
+        <img src="images/logo.png" alt="Ximi Guides Logo" class="logo">
+        <h1>Ximi Guides</h1>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="nav">
+        <ul class="nav-items">
+          <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="guides.html"><i class="fas fa-book"></i> Guides</a></li>
+          <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+          <li><a href="reviews.html"><i class="fas fa-star"></i> Reviews</a></li>
+          <li><a href="news.html"><i class="fas fa-newspaper"></i> News</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Unlock Your Xiaomi Device's Full Potential</h2>
+          <p>Expert-curated guides, tutorials and optimization tips for all Xiaomi, Redmi and POCO devices running MIUI or HyperOS.</p>
+          
+          <!-- Search Section -->
+          <div class="search-container">
+            <form id="search-form">
+              <input type="text" class="search-input" placeholder="Search guides, devices, or topics..." aria-label="Search guides">
+              <button type="submit" class="search-button" aria-label="Search">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          
+          <div class="hero-buttons">
+            <a href="guides.html" class="btn"><i class="fas fa-book-open"></i> Browse Guides</a>
+            <a href="#features" class="btn btn-secondary"><i class="fas fa-lightbulb"></i> Learn More</a>
+          </div>
+          <div class="hero-badges">
+            <span class="badge"><i class="fas fa-check-circle"></i> 250+ Guides</span>
+            <span class="badge"><i class="fas fa-users"></i> 1.2M+ Users</span>
+            <span class="badge"><i class="fas fa-thumbs-up"></i> 98% Success Rate</span>
+          </div>
         </div>
-    </header>
-
-    <main class="site-main">
-        <section class="hero">
-            <div class="container">
-                <img src="https://xiaomitime.com/wp-content/uploads/2024/06/Xiaomi-HyperOS-Bootloader-unlocking-errors-and-solutions-768x432.jpg" alt="">
-                <h2>Welcome to Ximi Guides</h2>
-                <p>Your ultimate resource for everything Xiaomi - tips, guides, and solutions for all your devices.</p>
-                <a href="guides.html" class="cta-button">Explore Guides</a>
-                <img src="https://i.imgur.com/YourImageLink.jpg" alt="Xiaomi Smartphone" class="hero-image">
-            </div>
-        </section>
-
-        <section class="features">
-            <div class="container">
-                <div class="feature">
-                    <h3>Comprehensive Guides</h3>
-                    <p>Step-by-step instructions to help you get the most out of your Xiaomi devices.</p>
-                    <img src="https://i.imgur.com/YourImageLink.jpg" alt="Xiaomi Guide Example">
-                </div>
-                <div class="feature">
-                    <h3>Expert Reviews</h3>
-                    <p>Detailed reviews to help you make informed decisions about Xiaomi products.</p>
-                    <img src="https://i.imgur.com/YourImageLink.jpg" alt="Xiaomi Expert Reviews">
-                </div>
-                <div class="feature">
-                    <h3>Community Support</h3>
-                    <p>Join our community to share tips, ask questions, and find solutions.</p>
-                    <img src="https://i.imgur.com/YourImageLink.jpg" alt="Community Support">
-                </div>
-            </div>
-        </section>
-
-        <section class="latest-news">
-            <div class="container">
-                <h2>Latest News</h2>
-                <article class="news-item">
-                    <h3>Xiaomi Launches New Smartphone</h3>
-                    <p>Xiaomi has unveiled its latest flagship smartphone featuring cutting-edge technology and an attractive price point. <a href="news.html">Read more...</a></p>
-                    <img src="https://i.imgur.com/YourImageLink.jpg" alt="Xiaomi Launch">
-                </article>
-                <article class="news-item">
-                    <h3>Top Tips for Extending Battery Life</h3>
-                    <p>Learn how to maximize the battery performance of your Xiaomi devices with these simple tips. <a href="guides.html">Learn more...</a></p>
-                    <img src="https://i.imgur.com/YourImageLink.jpg" alt="Battery Tips">
-                </article>
-            </div>
-        </section>
-
-        <section class="faq-preview">
-            <div class="container">
-                <h2>Frequently Asked Questions</h2>
-                <ul>
-                    <li><strong>How can I update my Xiaomi device?</strong> Visit the <a href="guides.html">guides</a> section for a step-by-step walkthrough.</li>
-                    <li><strong>Where can I find Xiaomi accessories?</strong> Check out our <a href="gallery.html">gallery</a> for curated recommendations.</li>
-                </ul>
-                <img src="https://i.imgur.com/YourImageLink.jpg" alt="Xiaomi FAQ">
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2025 Ximi Guides. All rights reserved. Not affiliated with Xiaomi Inc.</p>
-            <nav class="footer-nav" aria-label="Footer Navigation">
-                <ul>
-                    <li class="hidden-nav"><a href="contact.html">Contact</a></li>
-                    <li class="hidden-nav"><a href="news.html">Ximi News</a></li>
-                    <li class="hidden-nav"><a href="faqs.html">FAQs</a></li>
-                    <li class="hidden-nav"><a href="designer.html">About the Designer</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms of Service</a></li>
-                </ul>
-            </nav>
+        <div class="hero-image">
+          <img src="https://s.yimg.com/os/creatr-uploaded-images/2023-10/3e3ad230-73f8-11ee-bb62-11618409e620" alt="Xiaomi 14 Pro with Leica camera" loading="lazy">
+          <div class="hero-device-badge">
+            <span>Xiaomi 14 Pro</span>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <!-- Device Showcase Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Popular Xiaomi Devices</h2>
+        <div class="image-grid">
+          <!-- Row 1 -->
+          <div class="grid-item">
+            <img src="https://ansons.ph/wp-content/uploads/2024/09/05_REDMI-NOTE-13-Pro_Moonlight-White.png" alt="Redmi Note 13 Pro+ with 200MP camera" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Redmi Note 13 Pro+</div>
+              <div class="grid-meta">200MP Camera | Dimensity 7200 Ultra</div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <img src="https://d1sh47nr05d35z.cloudfront.net/catalog/product/x/i/xiaomi_pad_6_max_14_12gb_ram_256gb_rom_silver_cn_version-1_3.jpg?width=265&height=265&store=default&image-type=image" alt="Xiaomi Pad 6 Max large tablet" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Xiaomi Pad 6 Max</div>
+              <div class="grid-meta">14" Display | Snapdragon 8+ Gen 1</div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <img src="https://www.giztop.com/media/catalog/product/cache/97cc1143d2e20f2b0c8ea91aaa12053c/x/i/xiaomi_13_ultra_white_4.jpg" alt="Xiaomi 13 Ultra professional camera phone" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Xiaomi 13 Ultra</div>
+              <div class="grid-meta">Leica Quad Camera | Snapdragon 8 Gen 2</div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOiNMWTHJmQrKxF9AdMS6s3Q5rUZOL47fACqsn0UsNcLHd9tfODKtbf8wAtZTLoxJ_LU&usqp=CAU" alt="Xiaomi Watch S3 smartwatch" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Xiaomi Watch S3</div>
+              <div class="grid-meta">1.43" AMOLED | 15-day battery</div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6v2-Du0EKcfQZOwoBHc6UXCTSn2x58k22dg&s" alt="Xiaomi Buds 4 Pro wireless earbuds" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Xiaomi Buds 4 Pro</div>
+              <div class="grid-meta">Active Noise Cancellation | Hi-Res Audio</div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <img src="https://xiaomistoreph.com/cdn/shop/files/Xiaomi_PowerBank10000mAhIntegratedCable_WBG_1_1024x1024.jpg?v=1732266211" alt="Xiaomi 10000mAh Power Bank" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">10000mAh Power Bank</div>
+              <div class="grid-meta">50W Fast Charging | Compact Design</div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_Bp1sEivLBDBknG-KzwdFtEIiOGuWG0J2A&s" alt="Xiaomi 13T Pro smartphone" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Xiaomi 13T Pro</div>
+              <div class="grid-meta">MediaTek Dimensity 9200+ | 144Hz Display</div>
+            </div>
+          </div>
+          
+          <div class="grid-item">
+            <img src="images/smart.jpg" alt="Xiaomi Smart Band 8 Pro" loading="lazy">
+            <div class="grid-overlay">
+              <div class="grid-title">Smart Band 8 Pro</div>
+              <div class="grid-meta">1.74" AMOLED | 16-day battery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features">
+      <div class="container">
+        <h2 class="section-title">Why Choose Ximi Guides?</h2>
+        <div class="grid grid-3">
+          <div class="card feature-card">
+            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Device-Specific</h3>
+            <p>Precise tutorials for your exact Xiaomi model and software version (MIUI/HyperOS).</p>
+          </div>
+          <div class="card feature-card">
+            <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Performance Boost</h3>
+            <p>Battery optimization, RAM management, and thermal control guides to maximize speed.</p>
+          </div>
+          <div class="card feature-card">
+            <div class="feature-icon"><i class="fas fa-tools"></i></div>
+            <h3>Troubleshooting</h3>
+            <p>Step-by-step solutions for common Xiaomi device issues with guaranteed fixes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Guides Section -->
+    <section class="section popular-guides">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Trending Guides</h2>
+          <a href="guides.html" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="grid grid-auto">
+          <article class="card guide-card">
+            <div class="guide-badge">Most Popular</div>
+            <img src="https://technukti.com/wp-content/uploads/2025/01/Xiaomi-Shares-January-Progress-on-HyperOS-Optimization.jpeg" alt="HyperOS optimization guide screenshot" loading="lazy">
+            <div class="card-content">
+              <span class="difficulty intermediate"><i class="fas fa-star-half-alt"></i> Intermediate</span>
+              <h3>Complete HyperOS Optimization</h3>
+              <p>40+ settings to customize and improve your HyperOS experience on Xiaomi devices</p>
+              <div class="meta">
+                <span><i class="far fa-clock"></i> 25 min read</span>
+                <span><i class="fas fa-eye"></i> 124K views</span>
+              </div>
+              <a href="hyperos-guide.html" class="read-more">Read Guide <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="card guide-card">
+            <img src="https://www.gizchina.com/wp-content/uploads/images/2023/12/Hyperos-list1.webp" alt="Battery saving settings screenshot" loading="lazy">
+            <div class="card-content">
+              <span class="difficulty easy"><i class="fas fa-star"></i> Beginner</span>
+              <h3>Battery Saving Techniques</h3>
+              <p>20 proven methods to extend your Xiaomi device's battery life by 40%</p>
+              <div class="meta">
+                <span><i class="far fa-clock"></i> 15 min read</span>
+                <span><i class="fas fa-eye"></i> 89K views</span>
+              </div>
+              <a href="battery-guide.html" class="read-more">Read Guide <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="card guide-card">
+            <div class="guide-badge">New</div>
+            <img src="https://xiaomitime.com/wp-content/uploads/2025/04/Camera.jpg" alt="Camera Pro mode interface" loading="lazy">
+            <div class="card-content">
+              <span class="difficulty advanced"><i class="fas fa-star"></i> Advanced</span>
+              <h3>Pro Camera Settings</h3>
+              <p>Unlock DSLR-like photography with your Xiaomi's camera (GCam included)</p>
+              <div class="meta">
+                <span><i class="far fa-clock"></i> 30 min read</span>
+                <span><i class="fas fa-eye"></i> 42K views</span>
+              </div>
+              <a href="camera-guide.html" class="read-more">Read Guide <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Device Spotlight Section -->
+    <section class="section device-spotlight" style="background-color: #f9f9f9;">
+      <div class="container">
+        <h2 class="section-title">Device Spotlight: Xiaomi 14 Pro</h2>
+        <div class="grid grid-2">
+          <div class="device-content">
+            <h3>Maximize Your Flagship</h3>
+            <p>Get the most from Xiaomi's latest powerhouse with our exclusive guides:</p>
+            <ul class="device-features">
+              <li><i class="fas fa-check-circle"></i> HyperOS optimization guide</li>
+              <li><i class="fas fa-check-circle"></i> Leica camera settings</li>
+              <li><i class="fas fa-check-circle"></i> Battery life extension</li>
+              <li><i class="fas fa-check-circle"></i> Performance tuning</li>
+            </ul>
+            <a href="xiaomi-14-pro-guides.html" class="btn"><i class="fas fa-mobile-alt"></i> View Device Guides</a>
+          </div>
+          <div class="device-image">
+            <img src="https://fs.npstatic.com/userfiles/7446224/image/xiaomi-14-vs-xiaomi-14-pro-hero-w810h462.jpg" alt="Xiaomi 14 Pro in different angles" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Join Our Xiaomi Community</h2>
+          <p>Connect with 500,000+ Xiaomi enthusiasts and get personalized help for your device</p>
+          <div class="cta-buttons">
+            <a href="forum.html" class="btn"><i class="fas fa-users"></i> Visit Forum</a>
+            <a href="contact.html" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact Support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Ximi Guides Logo">
+            <span>Ximi Guides</span>
+          </div>
+          <p class="footer-about">Your trusted source for Xiaomi device guides and tutorials since 2020.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="guides.html"><i class="fas fa-chevron-right"></i> Guides</a></li>
+              <li><a href="reviews.html"><i class="fas fa-chevron-right"></i> Reviews</a></li>
+              <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            </ul>
+          </div>
+          <div class="link-group">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+              <li><a href="mivi.html"><i class="fas fa-chevron-right"></i> Mission & Vision</a></li>
+              <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+              <li><a href="faq.html"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+              <li><a href="designer.html"><i class="fas fa-chevron-right"></i> Meet the Designer</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Ximi Guides. Not affiliated with Xiaomi Corporation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

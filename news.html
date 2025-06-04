@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi News & Updates - Ximi Guides</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MiSans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo-container">
+                <img src="images/logo.png" alt="Ximi Guides Logo" class="logo">
+                <h1>Ximi Guides</h1>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="guides.html"><i class="fas fa-book"></i> Guides</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                    <li><a href="reviews.html"><i class="fas fa-star"></i> Reviews</a></li>
+                    <li><a href="news.html" class="active"><i class="fas fa-newspaper"></i> News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Xiaomi News & Updates</h1>
+                <p>Latest firmware releases, announcements, and product news</p>
+            </div>
+        </section>
+
+        <section class="section news-section">
+            <div class="container">
+                <h2 class="section-title">Latest Updates</h2>
+                
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">15</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>HyperOS 2.0 Beta Released for Xiaomi 13 Series</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-tag"></i> Firmware</span>
+                            <span><i class="fas fa-clock"></i> 2 days ago</span>
+                        </div>
+                        <p>Xiaomi has begun rolling out the HyperOS 2.0 beta program for Xiaomi 13, 13 Pro, and 13 Ultra devices. The update brings significant performance improvements and new customization options...</p>
+                        <a href="hyperos-2-beta.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">10</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Redmi Note 13 Series Receives Camera Optimization Update</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-tag"></i> Update</span>
+                            <span><i class="fas fa-clock"></i> 1 week ago</span>
+                        </div>
+                        <p>The latest MIUI 14.0.8 update for Redmi Note 13 devices improves the 200MP camera processing, reduces shutter lag, and enhances low-light performance...</p>
+                        <a href="redmi-note13-update.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">05</span>
+                        <span class="month">JUN</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Xiaomi Announces New MIUI Security Patch Schedule</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-tag"></i> Security</span>
+                            <span><i class="fas fa-clock"></i> 2 weeks ago</span>
+                        </div>
+                        <p>Xiaomi has committed to monthly security updates for all devices launched after 2022, with quarterly updates for older supported models...</p>
+                        <a href="miui-security-schedule.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">
+                        <span class="day">28</span>
+                        <span class="month">MAY</span>
+                    </div>
+                    <div class="news-content">
+                        <h3>Bootloader Unlock Policy Changes for European Models</h3>
+                        <div class="news-meta">
+                            <span><i class="fas fa-tag"></i> Policy</span>
+                            <span><i class="fas fa-clock"></i> 3 weeks ago</span>
+                        </div>
+                        <p>Xiaomi has updated its bootloader unlock requirements for EU devices, now requiring Mi Account verification and 7-day waiting period...</p>
+                        <a href="bootloader-policy-change.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <div class="text-center" style="margin-top: 3rem;">
+                    <a href="#" class="btn"><i class="fas fa-history"></i> View Older Updates</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section newsletter" style="background-color: #f9f9f9;">
+            <div class="container">
+                <h2 class="section-title">Stay Updated</h2>
+                <p class="text-center" style="max-width: 600px; margin: 0 auto 2rem;">Get the latest Xiaomi news delivered to your inbox</p>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                    <p class="text-small">We'll never share your email. Unsubscribe anytime.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+     <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Ximi Guides Logo">
+            <span>Ximi Guides</span>
+          </div>
+          <p class="footer-about">Your trusted source for Xiaomi device guides and tutorials since 2020.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="guides.html"><i class="fas fa-chevron-right"></i> Guides</a></li>
+              <li><a href="reviews.html"><i class="fas fa-chevron-right"></i> Reviews</a></li>
+              <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+            </ul>
+          </div>
+          <div class="link-group">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+              <li><a href="mivi.html"><i class="fas fa-chevron-right"></i> Mission & Vision</a></li>
+              <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+              <li><a href="faq.html"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+              <li><a href="designer.html"><i class="fas fa-chevron-right"></i> Meet the Designer</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Ximi Guides. Not affiliated with Xiaomi Corporation.</p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
